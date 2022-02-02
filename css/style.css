@@ -37,10 +37,10 @@ img{
 
 /* ?-------top bar--------- */
 .top-bar{
-    flex-direction: row-reverse;
+    justify-content: end;
     align-items: center;
     height: 40px;
-    background-color: blue;
+    background-color:black;
     color: white;
     font-size: .8rem;
 }
@@ -97,6 +97,10 @@ img{
     height: 80px;
 }
 
+.flex-item-bottom{
+    flex-shrink: 0;
+}
+
 /* !----------------- MAIN-------------------------------- */
 main{
     background-color: black;
@@ -110,14 +114,15 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border: 5px solid red;
+   /*  border: 5px solid red; */
+    width: 95vw;
 }
 
 .flex-item > p{
     color: white;
     background-color: lightgrey;
     padding: .2rem;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .flex-item{
