@@ -72,7 +72,8 @@ img{
 .bottom-bar{
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+ /*    height: 80px; */
+    flex-wrap: wrap;
     background-color:#222222;
     padding-left: 10px;
 }
