@@ -80,6 +80,7 @@ main{
     flex-wrap: wrap;
    /*  border: 5px solid red; */
     width: 100vw;
+    height: 80vh;
     max-height: 80vh;
     overflow-y: scroll;
     padding: 20px 0;
@@ -132,7 +133,7 @@ i.fa-angle-up:before{
 li:first-child:hover  i.fa-angle-up:before{
     content: "\f106";
     display: inline-block;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .flex-item-bottom  > p{
