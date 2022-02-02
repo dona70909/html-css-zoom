@@ -115,7 +115,17 @@ main{
     margin-right:1.5rem;
     color: white;
 }
+.flex-item-bottom   i{
+    font-size: 23px;
+}
 
+.flex-item-bottom .fa-share-square:hover{
+    color: green;
+}
+.flex-item-bottom  > p{
+    color: antiquewhite;
+    font-size: 13px;
+} 
 
 .bottom-bar a{
     text-decoration: none;
