@@ -136,6 +136,13 @@ li:first-child:hover  i.fa-angle-up:before{
     font-size: 13px;
 }
 
+.hover-item:hover + i.fa-angle-up:before{
+    content: "\f106";
+    display: inline-block;
+    font-size: 13px;
+}
+
+
 .flex-item-bottom  > p{
     font-size: 13px;
 } 
