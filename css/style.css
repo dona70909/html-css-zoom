@@ -11,6 +11,11 @@ ul{
 li{
     display: inline-block;
 }
+
+img{
+    width: 250px;
+    height: 150px;
+}
 /* TODO COMMON PROPERTIES */
 .flex{
     display: flex;
@@ -26,21 +31,22 @@ li{
     z-index:1;
 }
 
-
 /* TODO ---------------END--------------*/
 
 /* !------------------HEADER----------------- */
+
+/* ?-------top bar--------- */
 .top-bar{
     flex-direction: row-reverse;
     align-items: center;
     height: 40px;
     background-color: blue;
     color: white;
+    font-size: .8rem;
 }
 
 .top-bar > .btn{
-    background-color: lightgrey;
-    height: 25px;
+    background-color:#4a4a4a;
     margin:0 10px;
     padding: 3px;
     text-align: center;
@@ -49,14 +55,26 @@ li{
 .top-bar a{
     text-decoration: none;
     color: white;
+    height: 16px;
+    line-height: 16px;
 }
 
+.fa-th{
+    margin-right:5px;
+    vertical-align: middle;
+}
+
+.fa-expand-arrows-alt{
+    vertical-align: middle;
+}
+
+/* ?---------------bottom bar----------*/
 .bottom-bar{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: rgb(47, 0, 255);
-    padding: 0 10px;
+    background-color:#222222;
+    padding-left: 10px;
 }
 
 .bottom-bar li{
@@ -65,25 +83,34 @@ li{
     color: white;
 }
 
-.bottom-bar p{
-    font-size: .9rem;
-}
 
 .bottom-bar a{
     text-decoration: none;
     color: red;
+    padding: 31px;
+    font-size: .8rem;
+}
+
+.bottom-bar button{
+    background-color:rgba(74,74,74,255);
+    border: none;
+    height: 80px;
 }
 
 /* !----------------- MAIN-------------------------------- */
-.container-img{
+main{
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img{
     gap: 5px 10px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-    width: 100vw;
-    height: 80vh;
+    border: 5px solid red;
 }
 
 .flex-item > p{
@@ -94,7 +121,7 @@ li{
 }
 
 .flex-item{
-    width: 300px;
+    width: 250px;
     height: 150px;
    /*  margin: 5px 10px ; */
    /*  background-image: url("https://picsum.photos/300/150?random=1"); */
