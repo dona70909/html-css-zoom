@@ -94,15 +94,14 @@ main{
     height: 100px;
     flex-shrink: 0;
     background-image: url('https://picsum.photos/200/300');
-   /*  margin: 5px 10px ; */
-   /*  background-image: url("https://picsum.photos/300/150?random=1"); */
+    background-image: contain;
 }
 
 /* !---------------Footer? bottom bar----------*/
 .bottom-bar{
     justify-content: space-between;
     align-items: center;
- /*    height: 80px; */
+    /* height: 80px; */
     flex-wrap: wrap;
     background-color:#222222;
     padding-left: 10px;
@@ -120,7 +119,6 @@ main{
 .flex-item-bottom .fa-share-square:hover{
     color: green;
 }
-
 
 i.fa-angle-up:before{
     content: "\f106";
