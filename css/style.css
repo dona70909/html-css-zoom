@@ -134,12 +134,16 @@ li:first-child:hover  i.fa-angle-up:before{
     content: "\f106";
     display: inline-block;
     font-size: 13px;
+    vertical-align: middle;
+    margin-left: 5px;
 }
 
 .hover-item:hover + i.fa-angle-up:before{
     content: "\f106";
     display: inline-block;
     font-size: 13px;
+    vertical-align: middle;
+    margin-left: 5px;
 }
 
 
