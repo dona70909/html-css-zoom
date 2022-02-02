@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+/* TODO COMMON PROPERTIES */
+.flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index:1;
+}
+
+
+/* TODO ---------------END--------------*/
+
+/* !------------------HEADER----------------- */
+.top-bar{
+    flex-direction: row-reverse;
+    height: 40px;
+    background-color: blue;
+}
+
+.bottom-bar{
+    justify-content: space-between;
+    height: 80px;
+    background-color: red;
+}
+
+/* !----------------- MAIN-------------------------------- */
+
+.flex-item > p{
+    color: white;
+    background-color: lightgrey;
+    padding: .2rem;
+    font-size: 1rem;
+}
+
+.flex-item{
+    width: 300px;
+    height: 150px;
+   /*  background-image: url("https://picsum.photos/300/150?random=1"); */
+}
