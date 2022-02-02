@@ -7,6 +7,10 @@
 ul{
     list-style: none;
 }
+
+li{
+    display: inline-block;
+}
 /* TODO COMMON PROPERTIES */
 .flex{
     display: flex;
@@ -28,17 +32,54 @@ ul{
 /* !------------------HEADER----------------- */
 .top-bar{
     flex-direction: row-reverse;
+    align-items: center;
     height: 40px;
     background-color: blue;
+    color: white;
+}
+
+.top-bar > .btn{
+    background-color: lightgrey;
+    height: 25px;
+    margin:0 10px;
+    padding: 3px;
+    text-align: center;
+}
+
+.top-bar a{
+    text-decoration: none;
+    color: white;
 }
 
 .bottom-bar{
     justify-content: space-between;
+    align-items: center;
     height: 80px;
-    background-color: red;
+    background-color: rgb(47, 0, 255);
+    padding: 0 10px;
+}
+
+.bottom-bar li{
+    text-align: center;
+    margin-right:1.5rem;
+    color: white;
+}
+
+.bottom-bar p{
+    font-size: .9rem;
+}
+
+.bottom-bar a{
+    text-decoration: none;
+    color: red;
 }
 
 /* !----------------- MAIN-------------------------------- */
+
+/* section#imagesMain .container-img{
+        width: 100vw; 
+} 
+*/
 
 .flex-item > p{
     color: white;
