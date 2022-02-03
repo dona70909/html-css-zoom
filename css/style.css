@@ -35,6 +35,7 @@ li{
 .top-bar{
     justify-content: end;
     align-items: center;
+    /*  height: 16px; */
     height: 6vh;
     background-color:black;
     color: white;
@@ -67,6 +68,9 @@ li{
 /* !----------------- MAIN-------------------------------- */
 main{
     background-color: black;
+    height: 82vh;
+    background-color: black;
+    overflow: auto;
 }
 
 .container-img{
@@ -74,10 +78,11 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-   /*  border: 5px solid red; */
-    width: 100vw;
-    height:82vh;
-    overflow-y: scroll;
+    /*  border: 5px solid red; */
+    /* width: 100vw;
+    height: 82vh;
+    max-height: 82vh;
+    overflow: scroll; */
     padding: 20px 0;
 }
 
@@ -100,8 +105,9 @@ main{
 .bottom-bar{
     justify-content: space-between;
     align-items: center;
+    /*    height: 80px; */
     height: 12vh;
-    flex-wrap: wrap;
+   /*  flex-wrap: wrap; */
     background-color:#222222;
     padding-left: 10px;
 }
@@ -155,7 +161,7 @@ li:first-child:hover  i.fa-angle-up:before{
 .bottom-bar button{
     background-color:rgba(74,74,74,255);
     border: none;
-    height: 80px;
+    height: 12vh;
 }
 
 .flex-item-bottom{
